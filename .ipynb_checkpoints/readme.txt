@@ -1,0 +1,1 @@
+Folder where training data checkpoints will be saved
