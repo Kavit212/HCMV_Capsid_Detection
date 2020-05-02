@@ -1,18 +1,26 @@
-# HCMV Capsid Detection using Tensorflow
+###  HCMV Capsid Detection using Tensorflow
 
+Detection of HCMV capsid envelopment stages using Faster R-CNN
+Feature Extractor: ResNet101
 
+### Requirements
 
-## How to Run
-
-Require [Python 3.5+](https://www.python.org/ftp/python/3.6.4/python-3.6.4.exe) installed.
-Fork and clone this repository to your local machine.
-
-
-### Install required libraries
+Python 3.5 or above
+Tensorflow 1.14.0 and above
 Install all the required dependencies stated in the requirements.txt file
+Best to run on a GPU 
+
+### Dataset
+
+Please use your own TEM image dataset
 
 
-### Step 1: Add your custom images
+
+## Usage
+
+1) Fork and clone this repository.
+
+2) Add your custom images
 - Your custom images should ideally with have `jpg` extensions.
 
 - Train/test split those files into two directories, `./data/images/train` and `./data/images/test`
@@ -21,7 +29,7 @@ Install all the required dependencies stated in the requirements.txt file
 
 - Commit and push your annotated images and xml files (`./data/images/train` and `./data/images/test`) to your forked repository.
 
-### Step 2: Run Colab file
+3) Run Colab file
 - Open 'tensorflow_object_detection_training_colab.ipynb' notebook in colab
 - Replace the repository's url to yours and run it.
 - Yu can also opt to run this file locally in Jupyter notebook.
