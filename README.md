@@ -19,14 +19,14 @@ Please use your own Electron Microscopy image dataset
 
 1) Fork and clone this repository.
 
-2)Generate synthetic images
+2) Generate synthetic images
 - Change the current working directory into the SinGAN folder
 - Install all the required dependencies stated in the requirements.txt file in the SinGAN folder
 - To train SinGAN model on your own image, put the desire training image under Input/Images, and run
+
 'python main_train.py --input_name <input_file_name>'
+
 - Please refer to https://github.com/tamarott/SinGAN for more information on the generation of synthetic images
-
-
 
 3) Add your custom images
 - Ensure that your current working directory is the main repository
@@ -36,7 +36,7 @@ Please use your own Electron Microscopy image dataset
 - Store the corresponding `xml` files inside `./data/images/train` and `./data/images/test` folders
 - Commit and push your annotated images and xml files (`./data/images/train` and `./data/images/test`) to your forked repository
 
-3) Run Colab file
+4) Run Colab file
 - Open 'tensorflow_object_detection_training_colab.ipynb' notebook in colab
 - Replace the repository's url to yours and run it
 - You can also opt to run this file locally in Jupyter notebook
