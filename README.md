@@ -12,7 +12,9 @@ Best to run on a GPU
 
 ### Dataset
 
-Please use your own Electron Microscopy image dataset
+Please use your own Electron Microscopy image dataset.
+Images used in this project will be provided upon request.
+For image request, please contact: kavitha.shaga-devan@uni-ulm.de
 
 
 ## Usage
