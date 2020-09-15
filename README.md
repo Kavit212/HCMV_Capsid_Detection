@@ -44,3 +44,5 @@ For image request, please contact: kavitha.shaga-devan@uni-ulm.de
 - You can also opt to run this file locally in Jupyter notebook
 
 
+The syntyhetic image generator in this repository has been obtained from https://github.com/tamarott/SinGAN.
+
