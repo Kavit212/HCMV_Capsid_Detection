@@ -14,7 +14,7 @@ Best to run on a GPU
 
 Please use your own Electron Microscopy image dataset.
 Images used in this project will be provided upon request.
-For image request, please contact: kavitha.shaga-devan@uni-ulm.de
+For image request, please contact: clarissa.read@uni-ulm.de or jens.voneinem@uniklinik-ulm.de
 
 
 ## Usage
